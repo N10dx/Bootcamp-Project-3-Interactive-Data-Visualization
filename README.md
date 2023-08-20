@@ -1,27 +1,52 @@
-# Analysis of Riyadh Villas and Dashboard Creation
+# Riyadh Villas Price Analysis Dashboard
+
+## Project Team
+
+This interactive dashboard was collaboratively developed by:
+
+- **Mohammed Alharbi**
+- **Saeed Qahs**
+- **Mohammed Aba Al-Khail**
 
 ## Introduction
 
-In this analysis, we delve into the real estate market for villas in Riyadh, the capital city of Saudi Arabia. Riyadh is a rapidly growing city known for its modern infrastructure and economic development. This analysis aims to provide insights into the trends and characteristics of villa properties in the Riyadh market.
+Welcome to the Riyadh Villas Price Analysis Dashboard! Created by our team, this dashboard offers a comprehensive view of the real estate market for villas in Riyadh, the capital city of Saudi Arabia. Our goal is to provide valuable insights into pricing trends and property characteristics, aiding both enthusiasts and stakeholders in making informed decisions.
 
-## Data Collection
+## Dashboard Components
 
-The analysis is based on a comprehensive dataset of villa listings in Riyadh. The dataset was obtained from [Kaggle](https://www.kaggle.com), a platform for data science competitions and datasets. It includes various attributes such as location, number of bedrooms, and prices.
+### Location Selector
 
-## Pricing Analysis
+Choose from a variety of villa locations within Riyadh using the dropdown menu. This feature allows users to focus their analysis on specific areas of interest.
 
-### Price Distribution
+### Amenities Checklist
 
-We investigate the distribution of villa prices in Riyadh. Summary statistics will provide insights into the pricing landscape, including the average, median, and range of villa prices.
+Customize your search by selecting villa amenities from the checklist. Filter villas based on features such as a driver's room, elevator, or pool.
 
-### Price by Neighborhood
+### Property Age Slider
 
-We compare villa prices across different neighborhoods in Riyadh. Box plots and bar plots will show how prices vary based on location.
+Use the property age slider to filter villas based on their age range. This dynamic filter enhances the analysis by considering the age factor.
 
-## Building a Dashboard
+### Villa Count by Front Direction
 
-To provide a user-friendly way of visualizing the insights from our analysis, we built an interactive dashboard using Plotly Dash. The dashboard includes interactive charts, plots, and filters that allow users to explore villa pricing trends across different neighborhoods and understand the pricing distribution. This dashboard enhances the accessibility and usability of our analysis for both data enthusiasts and stakeholders.
+The histogram chart presents the distribution of villas based on their front direction within the selected location. Gain insights into popular front directions.
+
+### Villa Price Comparison by Front Direction
+
+The bar chart provides a comparison of average villa prices based on different front directions within the chosen location. Discover price variations across different directions.
+
+## Interactivity
+
+Our interactive dashboard responds in real time to your selections. As you adjust location preferences, amenities, and property age filters, the charts update dynamically to reflect your choices. This interactivity enhances the user experience and facilitates data exploration.
+
+## How to Use
+
+1. Select your desired location from the dropdown menu.
+2. Customize your search by checking amenities in the checklist.
+3. Adjust the property age slider to specify an age range.
+4. Observe how the charts adapt to your selections, providing valuable insights.
 
 ## Conclusion
 
-Through this analysis and the accompanying dashboard, we gain valuable insights into the Riyadh villa market. We understand the influence of size on pricing and the variations in prices across neighborhoods. The dashboard provides an interactive platform for users to explore and interact with the analysis results. This analysis, based on a dataset from Kaggle, serves as a foundation for informed decision-making in the Riyadh real estate market.
+We are proud to present the Riyadh Villas Price Analysis Dashboard, a collaborative effort by Mohammed Alharbi, Saeed Qahs, and Mohammed Aba Al-Khail. This interactive tool empowers users to explore Riyadh's villa market, make informed decisions, and gain insights into pricing trends. Leveraging the capabilities of Plotly Dash, we hope this dashboard proves valuable to anyone interested in the Riyadh real estate market.
+
+Start exploring and enjoy the Riyadh Villas Price Analysis Dashboard!
